@@ -21,7 +21,7 @@ contract MyToken is ERC721, ERC721Enumerable, Ownable, ERC721URIStorage {
     constructor() ERC721("Axolotl Squad", "AXS") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "ipfs://QmWidwRTrmpS5MSypLNbseZr3wTjgeTmf8GPbaNNHPS3iX/";
+        return "ipfs://MY-IPFS-URL/";
     }
 
     function safeMint(address to, uint256 amountToMint) public payable {
