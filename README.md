@@ -8,4 +8,4 @@ A simple minting site to test web3 technologies and practices
 * Upload and fetch data to IPFS
 
 # NOTE
-This code isn't uploaded to the blockchain as I am to broke to pay gas fees :(
+This code isn't uploaded to the blockchain as I am too broke to pay gas fees :(
