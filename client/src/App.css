@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800;900&display=swap");
+.App {
+  text-align: center;
+  font-family: nunito;
+}
+
+.mintButton {
+  font-family: nunito;
+  background-color: mediumpurple;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  border: black 2.5px solid;
+  box-shadow: 3px 3px 0px 0px rgb(0, 0, 0);
+  transition: 0.1s;
+}
+
+.mintButton:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+  transform: translate(3px, 3px);
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.amount h3 {
+  padding: 0px 20px 0px 20px;
+}
+
+.lessButton {
+  font-family: nunito;
+  background-color: rgb(255, 79, 79);
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  border: black 2.5px solid;
+  box-shadow: 3px 3px 0px 0px rgb(0, 0, 0);
+  transition: 0.007s;
+}
+
+.lessButton:hover {
+  cursor: pointer;
+}
+
+.lessButton:active {
+  box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+  transform: translate(3px, 3px);
+}
+
+.moreButton {
+  font-family: nunito;
+  background-color: rgb(95, 183, 255);
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  border: black 2.5px solid;
+  box-shadow: 3px 3px 0px 0px rgb(0, 0, 0);
+  transition: 0.007s;
+}
+
+.moreButton:active {
+  box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+  transform: translate(3px, 3px);
+}
+
+.moreButton:hover {
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  padding: 0px 100px 0px 100px;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+
+.banner {
+  width: 550px;
+}
+
+@media screen and (max-width: 520px) {
+  .banner {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .banner {
+    width: 240px;
+  }
+}
